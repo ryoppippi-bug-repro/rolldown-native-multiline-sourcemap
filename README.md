@@ -1,6 +1,6 @@
 # Native renderChunk maps lose original lines in multiline JavaScript
 
-This reproduces the sourcemap-resolution bug fixed by [Rolldown PR #11628](https://github.com/rolldown/rolldown/pull/11628). Rolldown 1.2.16 fails; 1.3.2 passes. Verified on 2026-11-17 with Node.js 24.21.0, pnpm 12.16.1 and macOS arm64.
+This reproduces the sourcemap-resolution bug fixed by [Rolldown PR #11628](https://github.com/rolldown/rolldown/pull/11628). The [upstream reproduction report](https://github.com/rolldown/rolldown/pull/11628#issuecomment-6963780192) includes the trace results. Rolldown 1.2.16 fails; 1.3.2 passes. Verified on 2026-11-17 with Node.js 24.21.0, pnpm 12.16.1 and macOS arm64.
 
 ## Steps
 
